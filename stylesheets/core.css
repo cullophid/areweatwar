@@ -11,10 +11,13 @@
 .text-color-4 { color: #E88873;}
 .text-color-5 { color: #E0AC9D;}
 
+.bg-war {
+  background-image: url('../images/bg-war.jpg');
+  background-size: cover;
+}
 
 body{
-  background-color: #f5f5f5;
-  color: #484A47;
+  color: black;
 }
 
 p {
