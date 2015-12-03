@@ -1,3 +1,30 @@
-@import url("screen.css");
-@import url("non-screen.css") handheld;
-@import url("non-screen.css") only screen and (max-device-width:640px);
+.bg-color-1 { background-color: #484A47;}
+.bg-color-2 { background-color: #5C6D70;}
+.bg-color-3 { background-color: #A37774;}
+.bg-color-4 { background-color: #E88873;}
+.bg-color-5 { background-color: #E0AC9D;}
+
+.text-color-white { color: #ffffff;}
+.text-color-1 { color: #484A47;}
+.text-color-2 { color: #5C6D70;}
+.text-color-3 { color: #A37774;}
+.text-color-4 { color: #E88873;}
+.text-color-5 { color: #E0AC9D;}
+
+
+body{
+  background-color: #f5f5f5;
+  color: #484A47;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+a,
+a:hover,
+a:visited {
+  text-decoration: none;
+  font-weight: 600;
+  color:inherit;
+}
